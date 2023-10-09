@@ -1,0 +1,40 @@
+ 
+style>
+        header {
+            background-color: #3590ff;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        h1 {
+        color: rgb(1, 18, 255);
+        }
+        .post {
+            border: 5px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        form {
+            border: 1px solid #35d7ff;
+            padding: 20px;
+            background-color: #00ffff;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        button[type="submit"] {
+            background-color: #00d9ff;
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+
+        body, h1, p, input, button {
+            font-family: 'Nunito Sans', sans-serif;
+        }
