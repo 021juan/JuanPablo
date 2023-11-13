@@ -13,11 +13,22 @@ function isPalindrome(str) {
   }
   return true;
 }
-const userInput = prompt("Digite uma palavra ou frase:");
-const result = isPalindrome(userInput);
 
-if (result) {
-    alert(`"${userInput}" é um palíndromo!`);
-} else {
-    alert(`"${userInput}" não é um palíndromo.`);
+function arrayMaxMin(arr) {
+  if (arr.length === 0) {
+      return [];
+  }
+
+  let max = arr[0];
+  let min = arr[0];
+
+  for (let i = 1; i < arr.length; i++) {
+      if (arr[i] > max) {
+          max = arr[i];
+      } else if (arr[i] < min) {
+          min = arr[i];
+      }
+  }
+
+  return [min, max];
 }
